@@ -19,7 +19,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/gemwalletcom/GRDB.swift", from: "7.9.0"),
+        .package(name: "GRDB", path: "../GRDB"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
