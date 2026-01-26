@@ -27,13 +27,13 @@ let package = Package(
         .target(
             name: "GRDBQuery",
             dependencies: [
-                .product(name: "GRDB", package: "GRDB.swift"),
+                .product(name: "GRDB", package: "GRDB"),
             ]),
         .testTarget(
             name: "GRDBQueryTests",
             dependencies: [
                 "GRDBQuery",
-                .product(name: "GRDB", package: "GRDB.swift"),
+                .product(name: "GRDB", package: "GRDB"),
             ]),
     ]
 )
